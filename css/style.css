@@ -1,0 +1,297 @@
+/* ESTILOS GENERALES */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   background-color: #202020;
+   color: #eeeeee;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ENCABEZADO */
+
+header {
+    background-color: #151515;
+    padding: 25px;
+    text-align: center;
+    border-bottom: 3px solid #a4c639;
+}
+
+header h1{
+    color: #a4c639;
+    font-size: 38px;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+}
+
+/* MENU DE NAVEGACION */
+
+nav a{
+    color: #eeeeee;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: #a4c639;
+}
+
+/* CONTENIDO GENERAL */
+
+main{
+    width: 85%;
+    max-width: 1200px;
+    margin: 30px auto;
+}
+
+section{
+    background-color: #292929;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    border: 1px solid #444444;
+}
+
+section h2{
+    color: #a4c639;
+    font-size: 28px;
+    margin-bottom: 25px;
+    border-bottom: 2px solid #a4c639;
+    padding-bottom: 10px;
+}
+
+/* PAGINA DE INICIO */
+
+.portada{
+    text-align: center;
+}
+
+.portada img{
+    width: 100%;
+    max-height: 450px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.portada p{
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* TARJETAS WALTER Y JESSE */
+
+.personajes-inicio{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.tarjeta {
+    background-color: #1b1b1b;
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #a4c639;
+    border-radius: 8px;
+}
+
+.tarjeta img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.tarjeta h3{
+    color: #a4c639;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.tarjeta p{
+    color: #cccccc;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* PAGINA DE HISTORIA */
+
+.historia-contenido{
+    display: flex;
+    gap: 25px;
+    align-items: flex-start;
+}
+
+.texto-historia{
+    width: 65%;
+}
+
+.texto-historia p{
+    line-height: 1.8;
+    text-align: justify;
+    margin-bottom: 18px;
+}
+
+.imagen-historia{
+    width: 35%;
+    background-color: #f2f2ed;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+}
+
+.imagen-historia img{
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+}
+
+.epigrafe{
+    font-size: 13px;
+    color: #555555;
+    text-align: center;
+    margin-top: 8px;
+}
+
+/* PIE DE PAGINA */
+
+footer{
+    background-color: #151515;
+    color: #aaaaaa;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    border-top: 2px solid #a4c639;
+}
+
+/* PAGINA DE PERSONAJES */
+
+.lista-personajes{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.personaje{
+    display: flex;
+    align-items: flex-start;
+    gap: 25px;
+    background-color: #1b1b1b;
+    padding: 20px;
+    border: 1px solid #444444;
+    border-left: 4px solid #a4c639;
+    border-radius: 8px;
+}
+
+.personaje img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.personaje h3 {
+    color: #a4c639;
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+
+.personaje p {
+    color: #cccccc;
+    line-height: 1.7;
+    text-align: justify;
+}
+
+/* PAGINA DE TEMPORADAS */
+
+.temporadas {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.temporada {
+    background-color: #1b1b1b;
+    padding: 25px;
+    border-left: 4px solid #a4c639;
+    border-radius: 5px;
+}
+
+.temporada h3 {
+    color: #a4c639;
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+
+.temporada p {
+    color: #cccccc;
+    line-height: 1.7;
+    text-align: justify;
+}
+
+.imagen-temporadas{
+    padding: 0;
+    overflow: hidden;
+}
+
+.imagen-temporadas img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    display: block;
+    border-radius: 8px;
+}
+
+/* PAGINA DE CONTACTO */
+
+.formulario-contacto{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 25px;
+    max-width: 650px;
+}
+
+.formulario-contacto label{
+    color: #a4c639;
+    font-weight: bold;
+}
+
+.formulario-contacto input, .formulario-contacto textarea{
+    padding: 12px;
+    border: 1px solid #555555;
+    border-radius: 5px;
+    background-color: #1b1b1b;
+    color: #eeeeee;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.formulario-contacto textarea{
+    resize: vertical;
+}
+
+.formulario-contacto button{
+    background-color: #a4c639;
+    color: #202020;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.formulario-contacto button:hover{
+    background-color: #8eac2f;
+}

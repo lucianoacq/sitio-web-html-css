@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breaking Bad</title>
+    <link href="css/normalize.css" rel="stylesheet">
+
+    <link rel="preload" href="css/style.css" as="style">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1> BREAKING BAD </h1>
+
+        <nav>
+            <a href="index.html"> Inicio </a>
+            <a href="historia.html"> Historia </a>
+            <a href="personajes.html"> Personajes </a>
+            <a href="temporadas.html"> Temporadas </a>
+            <a href="contacto.html"> Contacto </a>
+        </nav>
+    </header>
+    
+    <main>
+
+        <section>
+
+            <h2> Contacto </h2>
+
+            <p>
+                Si sos fanatico de Breaking Bad, completa el formulario para compartir tu opinion sobre la serie, tus personajes
+                favoritos o cualquier comentario que quieras dejar
+            </p>
+
+            <form class="formulario-contacto">
+
+                <label for="nombre"> Nombre: </label>
+                <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre" required>
+
+                <label for="email"> Correo electronico: </label>
+                <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required>
+
+                <label for="asunto"> Asunto: </label>
+                <input type="text" id="asunto" name="asunto" placeholder="Escribi el asunto" required>
+
+                <label for="mensaje"> Mensaje: </label>
+                <textarea id="mensaje" name="mensaje" rows="6" placeholder="Escribi tu mensaje..." required></textarea>
+
+                <button type="submit"> Enviar mensaje </button>
+                
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p> Breaking Bad Page </p>
+        <p> HTML y CSS – 2026 – Luciano Acquaviva </p>
+    </footer>
+
+</body>
+</html>
