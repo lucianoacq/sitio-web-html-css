@@ -21,6 +21,8 @@ Sitio académico sobre **Breaking Bad**, desarrollado por Luciano Acquaviva. Pre
 
 ## Cómo verlo
 
+**[Ver sitio publicado](https://lucianoacq.github.io/sitio-web-html-css/)**
+
 Descargar o clonar el repositorio y abrir `index.html` en un navegador. También se puede abrir la carpeta en VS Code y ejecutar **Open with Live Server** desde `index.html`. No requiere instalación de paquetes ni un proceso de compilación.
 
 ## Alcance del trabajo
